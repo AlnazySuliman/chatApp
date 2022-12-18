@@ -10,7 +10,7 @@ app.use(express.urlencoded({
   extended: true
 }));
 
-const url = 'mongodb+srv://suliman:suliman125@cluster0.l3qam.mongodb.net/message-database?retryWrites=true&w=majority';
+const url = 'your url for DB';
 
 mongoose.connect(url, err => {
         if(err) throw err;
